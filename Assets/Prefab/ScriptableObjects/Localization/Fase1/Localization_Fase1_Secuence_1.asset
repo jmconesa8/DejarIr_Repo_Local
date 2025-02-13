@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcaed03b9ac8879439435cf240944d24, type: 3}
+  m_Name: Localization_Fase1_Secuence_1
+  m_EditorClassIdentifier: 
+  tracks:
+  - {fileID: 11400000, guid: c70b8b362f724d54e852784eccebc9dc, type: 2}
+  - {fileID: 11400000, guid: e3c50fcc2e90d1a43b392166997ff11f, type: 2}
+  - {fileID: 11400000, guid: 46cd68b51841dcb4c8c7ef5616bf6815, type: 2}

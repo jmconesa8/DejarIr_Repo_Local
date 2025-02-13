@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4443936203710349699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999597939216226894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa12d46fdfe76040b1b07fc390809a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadSaveable:
+    m_PersistentCalls:
+      m_Calls: []
+  onInteractionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onInteractionExit:
+    m_PersistentCalls:
+      m_Calls: []
+  iterable: 1
+  constraintPlayer: 0
+  lookAtPivot: {fileID: 0}
+  interactionRange: 3
+  anglePlayerSupported: 40
+  saveAfterInteract: 0
+  onPuzzleCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  printStep: 0.5
+  lineDetectionSensibility: 0.005
+  corners:
+  - {fileID: 1275069593576143849}
+  - {fileID: 1275069593246407703}
+  - {fileID: 1275069593004970950}
+  - {fileID: 1275069593468994030}
+  fillAfterDraw: 1
+  matPool:
+  - {fileID: 2100000, guid: 3854316ace59d1748b5654188390f1c8, type: 2}
+  - {fileID: 2100000, guid: dc6190006c70b9e4ea5306fe78001ebe, type: 2}
+  - {fileID: 2100000, guid: fc2d264f6ec6666409e42f8f87eda8ff, type: 2}
+  - {fileID: 2100000, guid: 48280805596314844a00b4b50f5300ac, type: 2}
+  - {fileID: 2100000, guid: 0b0833e12c3b917429bad7b6721a35a5, type: 2}
+  - {fileID: 2100000, guid: 2c2a6507928b32a4a9cddc7de73fc48d, type: 2}
+  - {fileID: 2100000, guid: ed2e3f206c1c778408d52e17466ec0b5, type: 2}
+  - {fileID: 2100000, guid: 0a082d6e295a211428a60fb9adc01627, type: 2}
+  - {fileID: 2100000, guid: 9332e5ad195472843bbd70d0d3543817, type: 2}
+  matPivot: {fileID: 2100000, guid: 97860680c4865794886ba234eb4dc6fc, type: 2}
+  pivotScale: {x: 0.07, y: 0.07, z: 0.07}
+  moveType: 1
+  lineEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 616ed9bb07c8b1a40ad57d5d2a7b70bc, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 5f2cbfbae96677f408889cb2abf5e075, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: ff2b1dfcf51bdf1479f3d1eac99141eb, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_pitch
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.9
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 137afd8040593de4fb957e8d8719a806, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_pitch
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 1145a6ec63bb0a745b0d203057b1d451, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 6208fd48ad8fcef49b8caf8786619a8e, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_pitch
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Damero_Test, Assembly-CSharp
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  count: 0
+--- !u!1001 &1275069594426762401
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1190131893, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1190131894, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.9999824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190131894, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1898682
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190131894, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.000225
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430517606, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1430517607, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.0000176
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430517607, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1898682
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430517607, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.000225
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924439879, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1924439880, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032821582, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 2032821583, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.0000176
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032821583, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1898682
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032821583, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.999775
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528346441641921, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba448a861e8cc924592b0daa0d257970, type: 2}
+    - target: {fileID: 724528346441641923, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.40742844
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528346441641923, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.07429654
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528346441641923, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8932225
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528346441641923, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1750302
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528346441641923, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 21.915
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528346441641923, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 130.843
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528346441641923, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.611
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528347041988328, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528347041988328, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.20000076
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528347041988334, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.109
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528347041988334, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.886
+      objectReference: {fileID: 0}
+    - target: {fileID: 724528347041988334, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3726197250625896839, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -205.11931
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 630.5937
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -53.371536
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298824875353860378, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7615602870562485190, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+      propertyPath: m_Name
+      value: '[PUZZLE] Draw - LineEvents Variant'
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 724528347041988321, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+    - {fileID: 3726197250625896839, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+--- !u!1 &1999597939216226894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 724528347041988335, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+  m_PrefabInstance: {fileID: 1275069594426762401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1275069593576143849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1924439880, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+  m_PrefabInstance: {fileID: 1275069594426762401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1275069593246407703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1190131894, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+  m_PrefabInstance: {fileID: 1275069594426762401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1275069593004970950 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1430517607, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+  m_PrefabInstance: {fileID: 1275069594426762401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1275069593468994030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2032821583, guid: 8f6d9eff73655bb438c824f5deeefa7b, type: 3}
+  m_PrefabInstance: {fileID: 1275069594426762401}
+  m_PrefabAsset: {fileID: 0}

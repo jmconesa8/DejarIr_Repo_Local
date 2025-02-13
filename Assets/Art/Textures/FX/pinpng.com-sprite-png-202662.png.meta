@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 57b5417d6b7b8de4fad3830b7f3a716f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4621998715722119161
+    second: pinpng.com-sprite-png-202662_0
+  - first:
+      213: -1415456723490503670
+    second: pinpng.com-sprite-png-202662_1
+  - first:
+      213: -2442114201935814614
+    second: pinpng.com-sprite-png-202662_2
+  - first:
+      213: 8839140063982552629
+    second: pinpng.com-sprite-png-202662_3
+  - first:
+      213: 336817126421555369
+    second: pinpng.com-sprite-png-202662_4
+  - first:
+      213: 8181997286590758536
+    second: pinpng.com-sprite-png-202662_5
+  - first:
+      213: 4029594283379614741
+    second: pinpng.com-sprite-png-202662_6
+  - first:
+      213: -1607496728792006424
+    second: pinpng.com-sprite-png-202662_7
+  - first:
+      213: -3753388672049284319
+    second: pinpng.com-sprite-png-202662_8
+  - first:
+      213: 5017052571782307015
+    second: pinpng.com-sprite-png-202662_9
+  - first:
+      213: -5968621378341337360
+    second: pinpng.com-sprite-png-202662_10
+  - first:
+      213: 6110718757631118633
+    second: pinpng.com-sprite-png-202662_11
+  - first:
+      213: 3551730177870623965
+    second: pinpng.com-sprite-png-202662_12
+  - first:
+      213: -5543102131191817647
+    second: pinpng.com-sprite-png-202662_13
+  - first:
+      213: 5212155318139207860
+    second: pinpng.com-sprite-png-202662_14
+  - first:
+      213: -3184948800864977340
+    second: pinpng.com-sprite-png-202662_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3583
+        width: 1162
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708421d08ac5bdfb0800000000000000
+      internalID: -4621998715722119161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_1
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 3574
+        width: 929
+        height: 1110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0409610c994b5ce0800000000000000
+      internalID: -1415456723490503670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_2
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 3546
+        width: 772
+        height: 1115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20edac721edb1ed0800000000000000
+      internalID: -2442114201935814614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_3
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 3564
+        width: 867
+        height: 1109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5368a917e0feaaa70800000000000000
+      internalID: 8839140063982552629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2321
+        width: 441
+        height: 1113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8ef96546d9ca400800000000000000
+      internalID: 336817126421555369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_5
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2337
+        width: 376
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eb37c9e2b4c8170800000000000000
+      internalID: 8181997286590758536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_6
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 2381
+        width: 373
+        height: 1108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51469c9a6aefbe730800000000000000
+      internalID: 4029594283379614741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_7
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 2323
+        width: 373
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e000c6fd3601b9e0800000000000000
+      internalID: -1607496728792006424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1082
+        width: 373
+        height: 1108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bf68a93e849ebc0800000000000000
+      internalID: -3753388672049284319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_9
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 3
+        width: 773
+        height: 1113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc5b888bb620a540800000000000000
+      internalID: 5017052571782307015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_10
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1081
+        width: 376
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f68921ca723b2da0800000000000000
+      internalID: -5968621378341337360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_11
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 24
+        width: 930
+        height: 1112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d4be68552adc450800000000000000
+      internalID: 6110718757631118633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_12
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1112
+        width: 377
+        height: 1110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4730667c74a4130800000000000000
+      internalID: 3551730177870623965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_13
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 29
+        width: 1161
+        height: 1108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ad994faf1f213b0800000000000000
+      internalID: -5543102131191817647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_14
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 1075
+        width: 444
+        height: 1113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0c9db85ab455840800000000000000
+      internalID: 5212155318139207860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinpng.com-sprite-png-202662_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1123
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ef2a0b0f9ccc3d0800000000000000
+      internalID: -3184948800864977340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pinpng.com-sprite-png-202662_0: -4621998715722119161
+      pinpng.com-sprite-png-202662_1: -1415456723490503670
+      pinpng.com-sprite-png-202662_10: -5968621378341337360
+      pinpng.com-sprite-png-202662_11: 6110718757631118633
+      pinpng.com-sprite-png-202662_12: 3551730177870623965
+      pinpng.com-sprite-png-202662_13: -5543102131191817647
+      pinpng.com-sprite-png-202662_14: 5212155318139207860
+      pinpng.com-sprite-png-202662_15: -3184948800864977340
+      pinpng.com-sprite-png-202662_2: -2442114201935814614
+      pinpng.com-sprite-png-202662_3: 8839140063982552629
+      pinpng.com-sprite-png-202662_4: 336817126421555369
+      pinpng.com-sprite-png-202662_5: 8181997286590758536
+      pinpng.com-sprite-png-202662_6: 4029594283379614741
+      pinpng.com-sprite-png-202662_7: -1607496728792006424
+      pinpng.com-sprite-png-202662_8: -3753388672049284319
+      pinpng.com-sprite-png-202662_9: 5017052571782307015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

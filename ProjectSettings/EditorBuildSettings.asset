@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Build/Main Menu.unity
+    guid: 1d87ae024f90e3a4ca08db5b4d45ecc4
+  - enabled: 1
+    path: Assets/Scenes/Build/Tutorial.unity
+    guid: 266b06810a7da474ba000aed9827cb66
+  - enabled: 1
+    path: Assets/Scenes/Build/Fase 1.unity
+    guid: 36258dd3b74f48b4eacbf744223a2481
+  - enabled: 1
+    path: Assets/Scenes/Build/Fase 2.unity
+    guid: dc5963045077e8346bc5af90a810332d
+  - enabled: 1
+    path: Assets/Scenes/Build/Fase 3.unity
+    guid: 9c75dfac1f432e842bce7e44b769e64c
+  - enabled: 1
+    path: Assets/Scenes/Build/Fase 4.unity
+    guid: 9f528c9c47d7af440b210b576b7e71ea
+  - enabled: 1
+    path: Assets/Scenes/Build/Rabbit Hole.unity
+    guid: 16c34e56409aae64f8510bed8d41b5ea
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e2ea9a1109ccd464da0fc41ce954e922, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 6302cabcd5f1fbb4e825aee0a7cc263d, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 0acbceb5d9e67484f87ca93051747a91, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 084aa409f568fea448f147610ef5113b, type: 2}
+  m_UseUCBPForAssetBundles: 0

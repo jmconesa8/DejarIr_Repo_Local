@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcaed03b9ac8879439435cf240944d24, type: 3}
+  m_Name: LocalizationCassette_Tutorial
+  m_EditorClassIdentifier: 
+  tracks:
+  - id: tutorial_Off_1
+    clip: {fileID: 11400000, guid: 7b5f165251e797f48b0c7b1fae0f90b9, type: 2}
+  - id: tutorial_Off_2
+    clip: {fileID: 11400000, guid: 2c3f0db8da04fda4a9417e4b853238ed, type: 2}
